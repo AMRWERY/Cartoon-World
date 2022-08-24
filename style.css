@@ -1,0 +1,127 @@
+body {
+  background-color: #EEEBDD;
+  margin: auto;
+  padding: 15px;
+}
+
+#bttn {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #F15412;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1.1px 1.1px blueviolet;
+}
+
+.bg-img {
+  background-image: url("Animation\ World.jpg");
+  image-resolution: from-image 300dpi;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.absolute-container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #277BC0;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-shadow: 2px 2px black;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.cartoon {
+  font-family: 'Lobster', cursive;
+  color: #42032C;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.cart {
+  border-collapse: collapse;
+  border-spacing: 0 5px;
+  padding: 15px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.name {
+  font-family: 'DynaPuff', cursive;
+  color: #FF0000;
+}
+
+.plan {
+  font-family: 'Lobster', cursive;
+  color: #42032C;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card-header {
+  margin: auto;
+  color: #F15412;
+  font-size: 2rem;
+  background-color: aquamarine;
+}
+
+.contact {
+  font-family: 'Lobster', cursive;
+  color: #42032C;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.form-group {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  border-radius: 25%;
+}
+
+.btn {
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-instagram {
+  color: #F56040;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-youtube {
+  color: #FF0000;
+}
